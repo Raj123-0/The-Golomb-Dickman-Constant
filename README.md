@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 ===============================================================================
 PROJECT: The Golomb-Dickman Constant Computation Engine
 ===============================================================================
@@ -14,3 +17,9 @@ ALGORITHM & IMPLEMENTATION:
   and Gauss-Legendre quadrature schemes utilizing gmpy2 and mpmath.
 - IPC Zero-Copy Optimization: Quadrature nodes and weights are raw-serialized 
   across worker processes to bypass Python pickling overhead for high precision.
+
+## Usage
+
+```bash
+python "timed.py" --help
+```
